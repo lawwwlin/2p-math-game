@@ -1,19 +1,30 @@
 ## Planning
 
 ### Classes:
-Game
+  &nbsp;&nbsp; Game
   - Each player has 3 lives, and game will determine how many lives left. Game ends when one of the players reach 0 live.
-  #### Methods:
+  &nbsp;&nbsp;&nbsp;&nbsp; Variables:
+      - state: true/false, game continues if true, ends if false
+  &nbsp;&nbsp;&nbsp;&nbsp; Methods:
+      - 
 
-Player
+  &nbsp;&nbsp; Player
   - Player has 3 lives, and take turns asking and answsering questions
-  #### Methods:
+  &nbsp;&nbsp;&nbsp;&nbsp; Variables:
+      - lives: integer starting at 3
+  &nbsp;&nbsp;&nbsp;&nbsp; Methods:
+      - 
 
-Turn
+   &nbsp;&nbsp; Turn
   - Each turn starts with a question from one player, the other player answers the question and result and lives left show at the end of turn
-  #### Methods:
+      &nbsp;&nbsp;&nbsp;&nbsp; Variables:
+      - turn: 1/2, 1 for player1, 2 for player2
+  &nbsp;&nbsp;&nbsp;&nbsp; Methods:
+      - 
 
-Question
+  &nbsp;&nbsp; Question
+      &nbsp;&nbsp;&nbsp;&nbsp; Variables:
+      - turn: 1/2, 1 for player1, 2 for player2
   - "What does x plux y equal?"
-  #### Methods:
-    - 
+  &nbsp;&nbsp;&nbsp;&nbsp; Methods:
+      - 
