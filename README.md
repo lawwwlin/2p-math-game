@@ -20,6 +20,7 @@
 
   #### Player
   Player has 3 lives, and take turns asking and answsering questions
+
   &nbsp;&nbsp;&nbsp;&nbsp; Variables:
   - id: 1 for player 1, 2 for player 2
   - lives: integer starting at 3 down to 0
@@ -29,6 +30,7 @@
 
   #### Turn
   Each turn starts with a question from one player, the other player answers the question and result and lives left show at the end of turn
+
   &nbsp;&nbsp;&nbsp;&nbsp; Variables:
   - player: current player of the turn
 
@@ -37,6 +39,7 @@
 
   #### Question
   Ask and check the question
+  
   &nbsp;&nbsp;&nbsp;&nbsp; Variables:
   - num1: random number between 1 and 20
   - num2: random number between 1 and 20
